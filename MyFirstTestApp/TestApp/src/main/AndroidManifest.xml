@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="feLenius.myfirsttestapp.app" >
-
+    <uses-sdk android:minSdkVersion="7"  android:targetSdkVersion="19" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -15,6 +15,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="feLenius.myfirsttestapp.app.TextOnlyActivity"
+            android:label="@string/title_activity_text_only"
+            android:parentActivityName="feLenius.myfirsttestapp.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
         </activity>
     </application>
 
