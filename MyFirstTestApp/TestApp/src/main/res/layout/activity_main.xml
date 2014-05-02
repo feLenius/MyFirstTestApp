@@ -34,4 +34,14 @@
         android:id="@+id/button_toast"
         android:onClick="showText"/>
 
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_below="@id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Show the MenuActivity!"
+        android:id="@+id/button_menuActivity"
+        android:onClick="showMenuActivity"/>
+
 </RelativeLayout>

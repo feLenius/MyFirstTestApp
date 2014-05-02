@@ -111,4 +111,9 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+    public void showMenuActivity(View view){
+        Intent intent = new Intent(this, MenuActivity.class);
+        startActivity(intent);
+    }
+
 }
