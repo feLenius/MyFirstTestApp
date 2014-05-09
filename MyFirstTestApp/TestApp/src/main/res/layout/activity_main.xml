@@ -44,4 +44,23 @@
         android:id="@+id/button_menuActivity"
         android:onClick="showMenuActivity"/>
 
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_below="@id/button_menuActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Show the MapsActivity!"
+        android:id="@+id/button_mapsActivity"
+        android:onClick="showMapsActivity"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_below="@id/button_mapsActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Send SMS!"
+        android:id="@+id/button_sendSms"
+        android:onClick="sendSms"/>
+
 </RelativeLayout>
